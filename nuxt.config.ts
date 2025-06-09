@@ -1,10 +1,10 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   modules: [
     '@nuxt/ui',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    '@nuxtjs/tailwindcss'
   ],
 
   css: ['~/assets/css/main.css'],
